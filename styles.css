@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+
+
+}
+
+body {
+
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 1vw, 1vw, 1vw, 1vw;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+
+  max-width: 33.3vw;
+  margin: 4.17vw auto;
+  padding: 1.67vw;
+  background-color: #fff;
+  border-radius: 25px;
+  box-shadow: 10 10 10px rgba(33, 32, 32, 0.1);
+}
+
+.image {
+  position: relative;
+  top: 0.33vw;
+  left: 4.17vw;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 1.67vw;
+}
+
+.input-group {
+  margin-bottom: 1.25vw;
+
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 1.25vw;
+
+}
+
+.input-group input {
+  width: 90vw;
+  padding: 0.83vw;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+#options-section {
+  width: 30vw;
+  padding: 1vw;
+}
+
+.input-group button {
+  width: 100vw;
+  padding: 0.83vw;
+  background-color: #2b67a8;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.dropdown {
+  width: 30vw;
+}
+
+.dropbtn {
+  width: 30vw;
+}
+
+.dropdown-content {
+  width: 30vw;
+}
+
+label {
+  font-size: 2vw;
+}
+
+.container h1 {
+  font-size: 2vw;
+}
+
+.container img {
+  height: 13vw;
+  border-radius: 45px;
+}
+
+#username {
+  width: 30vw;
+}
+
+#EmailId {
+  width: 30vw;
+
+}
+
+#Regdno {
+  width: 30vw;
+}
+
+#year {
+  width: 30vw;
+}
+
+.input-group button:hover {
+  background-color: #0056b3;
+}
+
+#rgt {
+  color: white;
+  font-size: 1vw;
+  width: 30vw;
+  padding: 1vw 1vw;
+  transition: 0.6ms ease-in-out;
+}
+
+#rgt:hover {
+  background: white;
+  border: 1px solid black;
+  color: black;
+  font-weight: bolder;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    padding: 0.83vw;
+  }
+
+  form {
+    padding: 0.83vw;
+  }
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <img src="Ecell.jpg" alt="ECELL" class="image">
+    <form action="#" method="post">
+      <h1>Register</h1>
+
+      <div class="input-group">
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" required>
+      </div>
+
+      <div class="input-group">
+        <label for="emailid">Email Id</label>
+        <input type="text" id="EmailId" name="Email Id" required>
+      </div>
+
+      <div class="input-group">
+        <label for="branch">Branch</label>
+        <select id="options-section">
+          <div class="dropdown">
+            <button class="dropbtn">Choose an Option</button>
+            <div class="dropdown-content">
+              <option value="CSE">CSE</option>
+              <option value="INFORMATION TECHNOLOGY">INFORMATION TECHNOLOGY</option>
+              <option value="ETC">ETC</option>
+              <option value="EE">EE</option>
+              <option value="EEE">EEE</option>
+              <option value="CIVIL ENGINEERING">CIVIL ENGINEERING</option>
+              <option value="CHEMICAL ENGINEERING">CHEMICAL ENGINEERING</option>
+              <option value="PRODUCTION ENGINEERING">PRODUCTION ENGINEERING</option>
+              <option value="MECHANICAL ENGINEERING">MECHANICAL ENGINEERING</option>
+              <option value="MME">MME</option>
+              <option value="INTEGRATED PHYSICS">INTEGRATED PHYSICS</option>
+              <option value="INTEGRATED CHEMISTRY">INTEGRATED CHEMISTRY</option>
+              <option value="INTEGRATED MATHEMATICS">INTEGRATED MATHEMATICS</option>
+            </div>
+          </div>
+        </select>
+      </div>
+
+      <div class="input-group">
+        <label for="Regdno">Registration Number</label>
+        <input type="number" id="Regdno" name="Regdno" required>
+      </div>
+
+      <div class="input-group">
+        <label for="year">Year</label>
+        <input type="number" id="year" name="year" required>
+      </div>
+
+      <div class="input-group">
+        <label for="domain">Domain</label>
+        <select id="options-section">
+          <div class="dropdown">
+            <button class="dropbtn">Choose an Option</button>
+            <div class="dropdown-content">
+              <option value="Tech">Tech</option>
+              <option value="Marketing and Sponsorship">Marketing and Sponsership</option>
+              <option value="Graphic Designing">Graphic Designing</option>
+              <option value="Social Media">Social Media</option>
+              <option value="Event Management">Event Management</option>
+              <option value="Public Relation">Public Relation</option>
+              <option value="Video Editing">Video Editing</option>
+            </div>
+          </div>
+        </select>
+      </div>
+
+      <div class="input-group">
+        <button id="rgt" type="submit">Register</button>
+      </div>
+    </form>
+  </div>
+</body>
+
+</html>
